@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+    http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+    
+    <bean id="stuobj" class="com.vivek.Student">
+    <constructor-arg value="101" type="int"></constructor-arg>
+    <constructor-arg value="Vivek" type="String"></constructor-arg>
+    <constructor-arg value="9000" type="int"></constructor-arg>
+    <property name="id" value="11"></property>
+    <property name="name" value="Neymar"></property>
+    <property name="fees" value="20000"></property>
+    </bean>
+    <bean id="stuobj1" class="com.vivek.Student">
+    <constructor-arg value="102" type="int"></constructor-arg>
+    <constructor-arg value="Kumar" type="String"></constructor-arg>
+    <constructor-arg value="8000" type="int"></constructor-arg>
+    <property name="id" value="10"></property>
+    <property name="name" value="Mbappe"></property>
+    <property name="fees" value="25000"></property>
+    </bean>
+</beans>
